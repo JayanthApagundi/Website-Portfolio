@@ -33,5 +33,23 @@ nav ul li a{
 }
 
 .full-footer{
-  background-color: #2980b9;
+  background-color:#3498db;
+
+}
+
+.top-footer p{
+  color: white;
+}
+
+.top-footer h3{
+  color: white;
+}
+
+.top-footer a{
+  color: white;
+  font-weight: 600;
+}
+
+.bottom-footer{
+  background-color:#00a8ff;
 }
