@@ -1,0 +1,12 @@
+.myrows {
+  border: 3px solid green;
+  padding: 5px;
+}
+
+.mycols {
+  border: 2px solid red;
+}
+
+.mycontainer {
+  background-color: aqua;
+}
