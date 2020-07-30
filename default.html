@@ -13,34 +13,85 @@
   <!-- Custom CSS Style sheet-->
   <link rel="stylesheet" href="css/style.css" />
 
-  <title>Hello, world!</title>
+  <title>Website Portfolio</title>
 </head>
+<!-- xs<576 | 576<sm<768 | 768<md<992 | 992<lg<1200 | 1200<xl -->
 
 <body>
-  <h2>Bootstrap Grid System</h2>
+  <header>
+    <div class="p-1" id="topheader">
+      <div class="container-fluid">
+        <div class="rows">
+          <div class="col-xs-12 text-right">
+            <a class="p-1" href="tel:+91987321654"><i class="fas fa-phone"></i> +(91)-987321654 </a>
+            <a class="p-1" href="mailto:John.Doe@gmail.com"><i class="fas fa-envelope"></i> John.Doe@gmail.com </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <div class="container mycontainer">
-    <div class="row myrows">
-      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 mycols">
-        <h4>1</h1>
+    <div id="bottomheader">
+      <div class="container-fluid">
+        <nav class="navbar navbar-dark navbar-expand-md" style="background-color:#3498db;">
+          <a class="navbar-brand" href="#">
+            <h4> Logo </h4> <!-- Could be a any/image tag -->
+          </a>
+          <button data-target="#navbar-toggler" data-toggle="collapse" type="button" class="navbar-toggler"><span
+              class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#">Services</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Web Development</a>
+                  <a class="dropdown-item" href="#">Web Designing</a>
+                  <a class="dropdown-item" href="#">Software Development</a>
+                  <a class="dropdown-item" href="#">Android Applications</a>
+                  <a class="dropdown-item" href="#">Graphic Designing</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">SEO Services</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
       </div>
-      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6  mycols">
-        <h4>2</h4>
+    </div>
+  </header>
+
+  <footer class="full-footer">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h4 style="color: white;"> Logo </h4> <!-- Could be a any/image tag -->
+
       </div>
-      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6  mycols">
-        <h4>3</h4>
+      <div class="col-md-3">
+
       </div>
-      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6  mycols">
-        <h4>4</h4>
+      <div class="col-md-3">
+
       </div>
-      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 mycols">
-        <h4>5</h4>
-      </div>
-      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6  mycols">
-        <h4>6</h4>
+      <div class="col-md-3">
+
       </div>
     </div>
   </div>
+
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -48,4 +99,5 @@
   <script type="text/javascript" src="Bootstrap/javascript/popper.min.js"></script>
   <script type="text/javascript" src="Bootstrap/javascript/bootstrap.min.js"></script>
 </body>
+
 </html>
