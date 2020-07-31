@@ -11,45 +11,62 @@
   background-color: aqua;
 }
 
-#topheader{
+#topheader {
   background-color: ghostwhite;
   border-bottom: 1px solid silver;
 }
 
-#topheader a{
+#topheader a {
   color: #34495e;
   font-weight: 500;
   font-size: 0.85rem;
 }
 
-.container-fluid{
+.container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-nav ul li a{
+nav ul li a {
   font-size: 1.1rem;
   font-weight: 600;
 }
 
-.full-footer{
-  background-color:#3498db;
-
+.full-footer {
+  background-color: #3498db;
 }
 
-.top-footer p{
+.top-footer p {
   color: white;
 }
 
-.top-footer h3{
+.top-footer h3 {
   color: white;
 }
 
-.top-footer a{
+.top-footer a {
   color: white;
   font-weight: 600;
 }
 
-.bottom-footer{
-  background-color:#00a8ff;
+.bottom-footer {
+  background-color: #00a8ff;
+}
+
+.top-hero-section {
+  background-color: #3498db;
+  color: white;
+}
+
+.features {
+  width: 200px;
+}
+
+.requirement-section{
+  background-color: #3498db;
+  color: white;
+}
+
+.about-img{
+  width: 500px;
 }
