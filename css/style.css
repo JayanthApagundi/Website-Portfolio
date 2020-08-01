@@ -70,3 +70,29 @@ nav ul li a {
 .about-img{
   width: 500px;
 }
+
+.subscribe-section{
+  background-color:#3498db;
+  color: white;
+}
+
+.subscribe-section .form-control{
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;  /* LT, RT, RB, LB */
+}
+
+.subscribe-section .btn{
+  height: 50px;
+  border-radius: 0 20px 20px 0;
+  background-color:#3867d6;
+  color: white;
+}
+
+.client-section{
+  background-color:#dfe4ea;
+}
+
+.breadcrumbs-section{
+  background-color: #e9ecef;
+}
