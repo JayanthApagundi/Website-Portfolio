@@ -1,0 +1,97 @@
+#topheader {
+  background-color: ghostwhite;
+  border-bottom: 1px solid silver;
+}
+
+#topheader a {
+  color: #34495e;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+nav ul li a {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.full-footer {
+  background-color: #3498db;
+}
+
+.top-footer p {
+  color: white;
+}
+
+.top-footer h3 {
+  color: white;
+}
+
+.top-footer a {
+  color: white;
+  font-weight: 600;
+}
+
+.bottom-footer {
+  background-color: #00a8ff;
+}
+
+.top-hero-section {
+  background-color: #3498db;
+  color: white;
+}
+
+.features {
+  width: 200px;
+}
+
+.requirement-section {
+  background-color: #3498db;
+  color: white;
+}
+
+.about-img {
+  width: 500px;
+}
+
+.subscribe-section {
+  background-color: #3498db;
+  color: white;
+}
+
+.subscribe-section .form-control {
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px 0 0 20px; /* LT, RT, RB, LB */
+}
+
+.subscribe-section .btn {
+  height: 50px;
+  border-radius: 0 20px 20px 0;
+  background-color: #3867d6;
+  color: white;
+}
+
+.client-section {
+  background-color: #dfe4ea;
+}
+
+.breadcrumbs-section {
+  background-color: #e9ecef;
+}
+
+.work {
+  font-weight: 600;
+}
+
+.bar {
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 15px;
+  border: 1px solid rgb(206, 215, 224);
+}
